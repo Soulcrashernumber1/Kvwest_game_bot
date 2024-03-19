@@ -1,7 +1,7 @@
 pip install python-telegram-bot --upgrade
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-updater = Updater(token='6570343744:AAHZOf8sPzKxbifZ0oP_b_5i0lSui-0ZCyA') # Токен API к Telegram
+updater = Updater(token='6570343744:AAHZOf8sPzKxbifZ') # Токен API к Telegram
 dispatcher = updater.dispatcher
 
 def startCommand(bot, update):
